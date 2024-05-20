@@ -1,0 +1,23 @@
+.output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.output-textbox {
+    width: 80%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
