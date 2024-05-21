@@ -4,11 +4,9 @@ import "./Navbar.css";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="https://www.amrita.edu/">
-          Amrita
-        </a>
+        <span className="navbar-brand">Malayalam OCR Tool</span>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,21 +21,18 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a class="nav-link" href="https://www.amrita.edu/center/create">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://www.amrita.edu/center/create"
-              >
-                About Us
+              <a className="nav-link" href="/">
+                Link
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="https://www.amrita.edu/center/create">
-                Gallery
+              <a className="nav-link" href="/">
+                Disabled
               </a>
             </li>
           </ul>

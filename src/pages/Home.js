@@ -82,7 +82,15 @@ export const Home = () => {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid pt-5">
+      <div className="row text-center mb-3">
+        <h1>Malayalam OCR Tool</h1>
+        <span className="intro mx-auto">
+          The Malayalam OCR Tool converts handwritten Malayalam text into
+          editable and searchable digital documents. It's easy to use!. Select
+          the image file and wait for the magic to happen!!!
+        </span>
+      </div>
       <form onSubmit={handleSubmit}>
         <div
           className="row"
@@ -130,7 +138,7 @@ export const Home = () => {
             />
           </label>
         </div>
-        <div className="row my-5">
+        <div className="row my-5 pb-5">
           <div className="text-center">
             <div className="btn-conteiner">
               <button className="btn-content" type="submit">
