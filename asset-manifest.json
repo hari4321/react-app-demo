@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hari4321/react-app-demo/static/css/main.f8e4767c.css",
+    "main.js": "/hari4321/react-app-demo/static/js/main.60cc33cd.js",
+    "index.html": "/hari4321/react-app-demo/index.html",
+    "main.f8e4767c.css.map": "/hari4321/react-app-demo/static/css/main.f8e4767c.css.map",
+    "main.60cc33cd.js.map": "/hari4321/react-app-demo/static/js/main.60cc33cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8e4767c.css",
+    "static/js/main.60cc33cd.js"
+  ]
+}
