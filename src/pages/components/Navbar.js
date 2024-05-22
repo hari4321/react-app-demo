@@ -26,13 +26,13 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
-                Link
+              <a className="nav-link" href="https://www.amrita.edu/center/create/">
+                About Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
-                Disabled
+              <a className="nav-link" href="https://www.amrita.edu/center/create/gallery/">
+                Gallery
               </a>
             </li>
           </ul>

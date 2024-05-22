@@ -35,7 +35,7 @@ export const Result = () => {
 
   return (
     <div className="output-container">
-      <h2>API Output</h2>
+      <h2>Processed Image Output</h2>
       <textarea
         value={outputValue}
         className="output-textbox"
