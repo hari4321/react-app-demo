@@ -179,6 +179,16 @@
 }
 
 .intro {
+    font-size: 1.1rem;
+    width: 70vw;
+}
+
+.expansion{
     font-size: 1.3rem;
     width: 70vw;
+}
+
+.name-expand{
+    font-size: 1.5rem;
+    font-weight: 500;
 }

@@ -84,11 +84,18 @@ export const Home = () => {
   return (
     <div className="container-fluid pt-5">
       <div className="row text-center mb-3">
-        <h1>Malayalam OCR Tool</h1>
+        <h1>AMCODS</h1>
+        <div className="expansion mx-auto">
+        <span className="name-expand">Am</span>rita {" "}
+        <span className="name-expand">Co</span>nverter for {" "}
+        <span className="name-expand">D</span>ravidian {" "}
+        <span className="name-expand">S</span>cripts
+        </div>
+        
         <span className="intro mx-auto">
-          The Malayalam OCR Tool converts handwritten Malayalam text into
-          editable and searchable digital documents. It's easy to use!. Select
-          the image file and wait for the magic to happen!!!
+          <span className="name-expand">AMCODS</span> is a Malayalam OCR Tool converts handwritten Malayalam text
+          into editable and searchable digital documents. It's easy to use!.
+          Select the image file and wait for the magic to happen!!!
         </span>
       </div>
       <form onSubmit={handleSubmit}>

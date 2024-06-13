@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <span className="navbar-brand">Malayalam OCR Tool</span>
+        <span className="navbar-brand">AMCODS</span>
         <button
           className="navbar-toggler"
           type="button"
